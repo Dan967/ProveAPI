@@ -21,6 +21,11 @@
     "express": "^4.16.4"
   },
   "scripts":{
-	"start":"node api.js"
+	"start":"node api.js",
+	"test": "jest"
+  }
+  "jest":{
+	"verbose":true,
+	"collectCoverage":true
   }
 }
