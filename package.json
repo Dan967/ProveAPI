@@ -1,0 +1,19 @@
+{
+  "name": "proveapi",
+  "version": "1.0.0",
+  "description": "proveapi",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dan967/proveapi.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dan967/proveapi/issues"
+  },
+  "homepage": "https://github.com/Dan967/proveapi#readme"
+}
