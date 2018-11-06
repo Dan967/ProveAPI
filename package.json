@@ -4,7 +4,8 @@
   "description": "proveapi",
   "main": "api.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node api.js",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -20,12 +21,8 @@
     "body-parser": "^1.18.3",
     "express": "^4.16.4"
   },
-  "scripts":{
-	"start":"node api.js",
-	"test": "jest"
-  }
-  "jest":{
-	"verbose":true,
-	"collectCoverage":true
+  "jest": {
+    "verbose": true,
+    "collectCoverage": true
   }
 }
